@@ -26,3 +26,5 @@ Use the project in [tp3-balanced-strings](../code/tp3-balanced-strings) to compl
 
 ## Answer
 
+1. Pour cette méthode, nous avons seulement un paramètre (`String str`), nous n'aurons donc pas de produit cartésien à réaliser sur les inputs. Nous avons plusieurs valeurs d'entrée qui sont pertinentes à utiliser : une chaîne vide, une chaîne de caractères alphanumériques, une chaîne composée d'un seul symbole ouvrant, une chaîne avec des symboles désequilibrés et enfin, une chaîne avec des symboles équilibrés.
+2. Après avoir observé la couverture de test, nous pouvons observer qu'avec nos tests précédemment définis, il nous manque un test lorsque nous avons uniquement un caractère fermant. Après avoir rajouté ce test, le programme est couvert à 100%.
