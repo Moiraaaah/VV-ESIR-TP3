@@ -29,6 +29,6 @@ public void testDifférent(){
 }
 ```
 
-3. On peut utiliser ça pour arrêter le code pour tester une condition (de type un entier supérieur à l'entier qui doit être maximal) ou encore pour fail si on arrive à un endroit du code où on ne devrait pas pouvoir accéder. [Source](https://www.baeldung.com/junit-fail)
+3. On peut utiliser ça pour arrêter le code pour tester une condition (de type un entier supérieur à l'entier qui doit être maximal) ou encore pour fail si on arrive à un endroit du code où on ne devrait pas pouvoir accéder. [Using Fail Assertion in JUnit](https://www.baeldung.com/junit-fail)
 
 4.  
