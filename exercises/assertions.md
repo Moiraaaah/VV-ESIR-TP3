@@ -31,4 +31,4 @@ public void testDifférent(){
 
 3. On peut utiliser ça pour arrêter le code pour tester une condition (de type un entier supérieur à l'entier qui doit être maximal) ou encore pour fail si on arrive à un endroit du code où on ne devrait pas pouvoir accéder. [Using Fail Assertion in JUnit](https://www.baeldung.com/junit-fail)
 
-4. En JUnit 5, il est d'une part plus simple de vérifier une exception grâce à `assertThrows()` par rapport à JUnit4. On n'a pas besoin de faire de try/catch et donc il sera plus simple d'analyser les exceptions qu'on attend, on aura uniquement des exceptions pertinentes.
+4. En JUnit 5, il est d'une part plus simple de vérifier une exception grâce à `assertThrows()` par rapport à JUnit4. On n'a pas besoin de faire de try/catch et donc il sera plus simple d'analyser les exceptions qu'on attend, on aura uniquement des exceptions pertinentes. [Développement en JUnit5](https://www.jmdoudoux.fr/java/dej/chap-junit5.htm)
