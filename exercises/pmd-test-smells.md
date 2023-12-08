@@ -16,3 +16,5 @@ Include the improved test code in this file.
 ## Answer
 
 Par rapport aux règles de PMD que nous avons à disposition ici, nous avons trouvé 3 test smells correspondants dans le cours. Le *Eager Test*, l'*Assertion Roulette* ains que le *Free Rider* sont tous les 3 des test smells qui contiennent trop d'assert dans un seul test. La règle PMD correspondante est donc *JUnitTestContainsTooManyAsserts*. 
+
+En vérifiant la règle *JUnitTestContainsTooManyAsserts* sur les tests d'*Apache Commons Collections*, nous obtenons 1217 warnings. 
