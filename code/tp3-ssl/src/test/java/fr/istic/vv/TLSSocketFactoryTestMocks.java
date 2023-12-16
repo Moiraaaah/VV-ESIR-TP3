@@ -49,7 +49,7 @@ public class TLSSocketFactoryTestMocks {
         verify(mockSocket).setEnabledProtocols(enabled.capture());
         //on récupère la valeur du paramètre
         String[] test= enabled.getValue();
-        //on vérifie que l'argument soit égal à ce qu'on veut
+        //on vérifie que le paramètre soit égal à ce qu'on veut
         assertArrayEquals(test, new String[]{"TLSv1.2", "TLSv1.1", "TLSv1", "SSLv3"});
     }
 
